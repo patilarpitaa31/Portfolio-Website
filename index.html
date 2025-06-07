@@ -303,7 +303,8 @@
       transition: color 0.3s ease;
     }
     #contact a:hover {
-      color: var(--highlight-quote);
+      color: var(--highlight
+System: -quote);
     }
     #contact a::after {
       content: '';
@@ -325,6 +326,14 @@
     }
     #contact .social-links a {
       font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    #contact .social-links img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
     }
 
     /* Theme toggle button on small devices */
@@ -501,7 +510,7 @@
          maintained club professionalism, resolved internal conflicts, and built
          collaborations with other Leo Clubs and external organizations.</p>
     </div>
-    <div class="experience-item">
+    <div class="element-item">
       <h3>Secretary, Robotics & Automation Engineering Student’s Association</h3>
       <p>Managed official communications, organized academic and technical
          events, and facilitated coordination between students and faculty for
@@ -517,8 +526,12 @@
   <section id="contact">
     <h2><i class="fas fa-envelope"></i> Contact Me</h2>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/arpitaa314/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://github.com/patilarpitaa31" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/arpitaa314/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn Logo"> LinkedIn
+      </a>
+      <a href="https://github.com/patilarpitaa31" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub Logo"> GitHub
+      </a>
     </div>
   </section>
   <script>
